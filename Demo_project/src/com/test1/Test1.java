@@ -13,7 +13,7 @@ public class Test1 {
 		t=null;
 		
 		System.gc();
-		Thread.sleep(2000);
+		
 		System.out.println("main end");
 	}
 	protected void finalize()
